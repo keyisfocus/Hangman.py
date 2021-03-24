@@ -10,3 +10,7 @@ Ask the player for a possible word.
 3. By the way, `python` should be the word the player needs to guess to win the game.
 
 ## Stage 3
+1. Create the following list of words: `'python'`, `'java'`, `'kotlin'`, `'javascript'`.
+2. Program the game to choose a word from the list at random. You can enter more words, but let's stick to these four for now.
+
+## Stage 4
