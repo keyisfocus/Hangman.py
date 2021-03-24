@@ -18,3 +18,11 @@ Ask the player for a possible word.
 2. Once the computer has chosen a word from the list, show its first 3 letters. Hidden letters should be replaced with hyphens (`"-"`).
 
 ## Stage 5
+Now your game should work as follows:
+
+1. A player has exactly 8 tries and enters letters. Nothing changes if a player has more tries left but they have already guessed the word.
+2. If the letter doesn't appear in the word, the computer takes one try away – even if the user has already guessed this letter.
+3. If the player doesn't have any more attempts, the game should end and the program should show a losing message. Otherwise, the player can continue to input letters.
+4. Also, the word should be selected from our list: `'python', 'java', 'kotlin', 'javascript'`, so that your program can be tested more reliably.
+
+## Stage 6
