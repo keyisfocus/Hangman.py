@@ -26,3 +26,20 @@ Now your game should work as follows:
 4. Also, the word should be selected from our list: `'python', 'java', 'kotlin', 'javascript'`, so that your program can be tested more reliably.
 
 ## Stage 6
+The player starts the game with 8 "lives", which is to say, our player can input a wrong letter 8 times.
+
+1. Print `That letter doesn't appear in the word` and reduce the number of remaining attempts if the word selected by the program doesn't contain this letter.
+2. Print `No improvements` and reduce the attempts count if the selected word contains this letter but the user has already tried guessing it.
+3. The number of remaining attempts should be decreased only if there are no letters to uncover
+
+## Stage 7
+1. If the user enters the same letter twice, then the program should output `You've already guessed this letter` . This message should also be printed if the user inputs a letter that doesn't appear in the word. The number of attempts shouldn't be decreased in this case.
+2. Also, you should check to make sure the player entered an English lowercase letter. If not, the program should print `Please enter a lowercase English letter` .
+3. You should also check if the player entered exactly one letter. If not, the program should print `You should input a single letter` . Remember that zero is also not one!
+4. Note that none of these three errors should reduce the number of remaining attempts!
+
+## Stage 8
+
+1. The game starts with a menu where a player can choose to either play or exit.
+2. Print `Type "play" to play the game, "exit" to quit:` and show this message again if the player inputs something else.
+3. If the user chooses to play, the game begins.
