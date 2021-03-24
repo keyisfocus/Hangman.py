@@ -14,3 +14,7 @@ Ask the player for a possible word.
 2. Program the game to choose a word from the list at random. You can enter more words, but let's stick to these four for now.
 
 ## Stage 4
+1. As in the previous stage, you should use the following word list: `'python', 'java', 'kotlin', 'javascript'`
+2. Once the computer has chosen a word from the list, show its first 3 letters. Hidden letters should be replaced with hyphens (`"-"`).
+
+## Stage 5
